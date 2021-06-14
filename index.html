@@ -61,7 +61,7 @@
         .life {
             color: red;
             font-weight: 300;
-            font-size: 50px;
+            font-size: 60px;
         }
         
         .jum {
@@ -75,62 +75,107 @@
             font-family: 'Mate SC';
             color: rebeccapurple;
             font-size: 30px;
-            font-weight: 500;
+            font-weight: 600;
         }
     </style>
 </head>
 
 <body>
-    <!-- Nav區塊 --->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Nav--->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="pics/126126123.gif" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
-			  </button>
+			</button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    <link class="nav-item">
-                    <a class="nav-link" href="#">生平</a>
-                    </link>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">學術生涯</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          生平
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">家庭背景</a></li>
+                            <li><a class="dropdown-item" href="#">學業生活</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">婚姻</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          學術生涯
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">1966年~1990年</a></li>
+                            <li><a class="dropdown-item" href="#">1990年~2018年</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">健康狀態</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          婚姻
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">第一任妻子</a></li>
+                            <li><a class="dropdown-item" href="#">第二任妻子</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">個人理念</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          漸凍症
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">漸凍症</a></li>
+                            <li><a class="dropdown-item" href="#">症狀發展</a></li>
+                            <li><a class="dropdown-item" href="#">治療方法</a></li>
+                            <li><a class="dropdown-item" href="#">冰桶挑戰</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">書籍介紹</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          個人理念
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">學術成就</a></li>
+                            <li><a class="dropdown-item" href="#">獲得獎項</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">製作團隊</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          相關作品
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">個人書籍</a></li>
+                            <li><a class="dropdown-item" href="#">改編電影</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          製作團隊
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">心得感想</a></li>
+                            <li><a class="dropdown-item" href="#">指導老師</a></li>
+                            <li><a class="dropdown-item" href="#">參考資料</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Jumbotron區塊 --->
+    <!-- Jumbotron --->
     <div class="jumbotron">
-        <h1 class="display-4">史蒂芬●霍金</h1>
+        <h1 class="display-4">史蒂芬-霍金</h1>
         <hr class="my-4">
         <p class="jum">My fingers still active;my brain still thinking;I have a life-long pursuit of the ideal.</br>there is love and I love my family and friends</br>Yes,I have a grateful heart</p>
     </div>
+    <!-- Card--->
     <div class="row">
         <div class="text-center col-md-12 col-xs-6">
             <h1 class="life">學術生涯</h1>
         </div>
     </div>
-    <table class="container table table-striped">
+    <table class="container table table-striped  table-condensed table-bordered">
         <thead>
             <tr>
                 <th>
@@ -147,12 +192,129 @@
         </thead>
         <tbody>
             <tr>
-                <td>最美的風景</td>
+                <td>
+                    <div class="td active text-center">
+                        1968年，與潘洛斯合作撰寫關於最初時間的論文榮獲重力研究基金競賽第二名。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        1993年，與蓋瑞-紀邦斯合作，將關於用歐幾里得方法來表述量子重力的一些講義編輯<br>成為著作《歐幾里得量子重力》。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1974年，加州理工學院聘請他為謝爾曼•費爾柴爾德傑出訪問教授。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        1993年，將1976年到1992年撰寫的14篇文章收集成一本科普著作《黑洞與嬰兒宇宙》。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        同年，當選為英國皇家學會院士，年齡才32歲，是最年輕的院士之一。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        1994年，與潘洛斯在劍橋的牛頓研究院演講的六堂課系列發行成著作《時空的性質》。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1975年，回到劍橋大學擔任大學教授，也榮獲庇護十一世金牌。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        1997年，英國廣播公司與美國公共電視合作製成了六集電視節目《史蒂芬•霍金的宇宙》。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1978年，獲得愛因斯坦獎與牛津大學榮譽博士學位。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        1997年，於2001年撰寫完成《時間簡史》的姊妹作《胡桃裡的宇宙》。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        隔年，成為第十七位盧卡斯教授，是劍橋大學授予物理學者的最高榮譽職位。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        2005年，與倫納德-姆沃迪瑙合作將《時間簡史》重寫並更新為讓人更淺顯易懂。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1981年，在梵蒂岡教皇科學學會主辦的一場會議中。<br>發表了論文《宇宙邊界條件》。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        2002年，英國廣播電台的「偉大英國人」節目選出霍金為最偉大的100名英國人中第25名。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1984年，《時間簡史》首稿完成。經過多次編綴，該書於1988年出版發行。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        2007年，與女兒露希、博士學生克里斯多福-蓋發德共同撰寫完成童書《喬治通往宇宙的秘密鑰匙》。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1988年，與潘洛斯共同獲得沃爾夫獎，表彰他們<br>「對於廣義相對論的重要研究，<br>這些研究顯示了宇宙奇點的必要性和與黑洞相關物理。」
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        2007年，獲美國總統巴拉克•歐巴馬頒予美國最高的平民榮譽總統自由勳章。
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="td active text-center">
+                        1989年，英國女皇伊莉莎白二世頒予名譽勳位，以肯定他對國家的重大貢獻。
+                    </div>
+                </td>
+                <td>
+                    <div class="td active text-center">
+                        2009年，根據劍橋大學的校規，盧卡斯數學教授必須在67歲時退休，<br>霍金卸任，並轉任為「劍橋理論宇宙學中心研究主任」。
+                    </div>
+                </td>
             </tr>
         </tbody>
     </table>
 
-    <!-- Card區塊 --->
+
     <div class="row">
         <div class="text-center col-md-12 col-xs-6">
             <h1 class="life">書籍介紹</h1>
